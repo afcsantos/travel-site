@@ -29,7 +29,7 @@ class Modal {
 		this.modal.addClass("modal--is-visible");
 		return false;
 	}
-
+	
 	closeModal() {
 		this.modal.removeClass("modal--is-visible");
 	}
